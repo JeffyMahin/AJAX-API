@@ -11,9 +11,9 @@ $.getJSON("http://dummy.restapiexample.com/api/v1/employees", function(response)
             temp+="<td>"+ d[i].employee_salary+"</td>";
             temp+='</tr>';
             i+=1;
+
         });
         $("#empt").append(temp);
         console.log(temp)
-
 
 });
